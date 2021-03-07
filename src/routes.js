@@ -7,13 +7,13 @@ import {
 
 
 
-export default (
-    <Switch>
-        <Route component={}/>
-        <Route component={}/>
-        <Route component={}/>
-    </Switch>
-)
+// export default (
+//     <Switch>
+//         <Route component={}/>
+//         <Route component={}/>
+//         <Route component={}/>
+//     </Switch>
+// );
 
 
 // What React-Router will do is conditionally render certain components to display depending on the route being used in the URL (/ for the homepage)

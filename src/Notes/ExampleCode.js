@@ -21,7 +21,7 @@ function baz(foo) { // The ' Named Parameter ' (foo), of function baz(), is trea
                     // The variable 'foo', contained within the parameters of the 'function baz(foo)', is registered to the scope of the function baz. 
     foo = "bam";
     bam = "yay";
-}
+};
 
 
 

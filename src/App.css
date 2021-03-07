@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Newer Css Written:  */
+
+
+/* Typography Settings for Components in below section. */
+/* Ag - unsure what the ag stood for. */
+/* .Helvetica LT MM
+Weight 
+400
+Style 
+normal
+Size 
+15px
+Line height 
+18px
+Align 
+Center
+rgba(0, 0, 0, 1)
+rgba(196, 196, 196, 1)
+rgba(243, 241, 241, 1) */
+
+
+/* Outer-Most container, Search-bar border container. Piece 1 of 4  */
+.search-bar-border-Cont {
+
+position: absolute;
+width: 461px;
+height: 39px;
+
+background: rgba(190, 224, 248, 0.32);
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+
+}
+
+
+
+/* Container Housing the text 'Search'...Piece 2 of 3.*/
+.search-box-rectangle-one{
+font-family: Helvetica LT MM ;
+position: absolute;
+width: 100px;
+height: 27px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+}
+
+/* text container displaying the User's search...Piece 3 of 4...Note: Possibly explore if this would be a stateful component, that takes their input(An Event to be handled), and sends that input as a request(Axios), to the backend(Node.js, Massive, Redux), to check if the User's input(the Event that occurred), matches a predetermined search(An already existing path... Ex. - "Search 'Volkswagen' on the */ 
+.Search-box {  
+
+position: absolute;
+width: 92.23px;
+height: 19.39px;
+
+font-family: Helvetica LT MM;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+border: 1.3px solid #000000;}
+
+/* Input-box Container, will be the styling for container responsible for where the user will enter text container desplaying search...Piece Null of 3.*/
+.search-box-rectangle-two {
+position: absolute;
+width: 348px;
+height: 27px;
+
+background: #F3F1F1;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 10px;}

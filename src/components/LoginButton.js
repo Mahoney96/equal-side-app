@@ -1,27 +1,22 @@
-import e from "express";
+// import e from "express";
 import React from "react";
 
-class LoggingButton extends React.Component {
-    
-
-    handleClick = () => {
-        console.log('this is:', this);
-    }
-
-
+class LoginButton extends React.Component {
     render() {
         return (
-            <button onClick={this.handleClick}>
-                Click Me
-            </button>
+            <div>
+                Click Me. 
+            </div>
         );
     }
 }
 
+export default LoginButton;
 
-// Paasing Arguments to Event Handlers //
 
-<button onClick={(e) =>this.deleteRow(id, e)}>Delete Row</button>
+
+
+// Passing Arguments to Event Handlers //
 
 
 // the ' e ' in event handler related functions represents the React event that will be passed as a second argument after the ID.
