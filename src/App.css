@@ -1,3 +1,29 @@
+/* NEW STYLING DESIGNS AS OF 4/13/21 */
+.Equal-header.js {
+  background-color: #15be5c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Equal-logo {
+  height: 8em;
+  width: 4em;
+  background-color: rgb(49, 94, 179);
+}
+
+
+
+/* END OF 4/13/21 STYLING  */
+
+
+
+/* OG React Css styling below, Till Reaching ' END of REACT OG STYLING CSS ' */
+
 .App {
   text-align: center;
 }
@@ -21,9 +47,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; 
 }
-
+  
 .App-link {
   color: #61dafb;
 }
@@ -37,49 +63,39 @@
   }
 }
 
-
-/* Newer Css Written:  */
-
-
-/* Typography Settings for Components in below section. */
-/* Ag - unsure what the ag stood for. */
-/* .Helvetica LT MM
-Weight 
-400
-Style 
-normal
-Size 
-15px
-Line height 
-18px
-Align 
-Center
-rgba(0, 0, 0, 1)
-rgba(196, 196, 196, 1)
-rgba(243, 241, 241, 1) */
+/* END OOF REACT OG STYLING */
 
 
-/* Outer-Most container, Search-bar border container. Piece 1 of 4  */
-.search-bar-border-Cont {
 
+/* OLDER FIGMA-DESIGNED STYLING BELOW */  
+
+
+/* Css Styling for the (4) proposed containers for the SearchBar Component:  */
+
+/* Outer-Most container, Search-bar border container. */
+.search-bar-border-container {
 position: absolute;
-width: 461px;
-height: 39px;
+width: 29em;
+height: 2.5em;
 
 background: rgba(190, 224, 248, 0.32);
 border: 1px solid #000000;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 2px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(4px);
-/* Note: backdrop-filter has minimal browser support */
+/* Note: backdrop-filter has minimal browser support. */
 
 }
 
-
-
-/* Container Housing the text 'Search'...Piece 2 of 3.*/
-.search-box-rectangle-one{
+/* Container Housing the text 'Search' */
+.search-box-text-housing {
 font-family: Helvetica LT MM ;
 position: absolute;
+
+margin:auto;
+border: #000000;
+border-radius: 0%;
+padding-left: 0%;
+padding-right: 0%;
 width: 100px;
 height: 27px;
 
@@ -89,12 +105,15 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 2px rgba(0, 0, 0, 0.2
 backdrop-filter: blur(4px);
 }
 
-/* text container displaying the User's search...Piece 3 of 4...Note: Possibly explore if this would be a stateful component, that takes their input(An Event to be handled), and sends that input as a request(Axios), to the backend(Node.js, Massive, Redux), to check if the User's input(the Event that occurred), matches a predetermined search(An already existing path... Ex. - "Search 'Volkswagen' on the */ 
-.Search-box {  
-
+.search-bar-text {  
 position: absolute;
 width: 92.23px;
 height: 19.39px;
+margin:auto;
+border:#233caf;
+border-radius: 0%;
+padding-left: 0%;
+padding-right: 0%;
 
 font-family: Helvetica LT MM;
 font-style: normal;
@@ -110,15 +129,61 @@ color: #000000;
 mix-blend-mode: normal;
 border: 1.3px solid #000000;}
 
-/* Input-box Container, will be the styling for container responsible for where the user will enter text container desplaying search...Piece Null of 3.*/
-.search-box-rectangle-two {
-position: absolute;
+/* Text-Input-box Container, will be the styling for container responsible for where the user will enter text container desplaying search. */
+.search-box-input-container {
+display: flexbox;
+
 width: 348px;
 height: 27px;
+margin:auto;
+border:#15be5c;
+border-radius: 0%;
+padding-left: 0%;
+padding-right: 0%;
+
 
 background: #F3F1F1;
 border: 1px solid #000000;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 2px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(4px);
+
 /* Note: backdrop-filter has minimal browser support */
 border-radius: 10px;}
+
+/* CONTINUED STYLING PROPERTIES ASSOCIATED WITH THE ABOVE (4) COMPONENTS: */ 
+/* Ag - unsure what the ag stood for. */
+/* .Helvetica LT MM
+Weight 
+400
+Style 
+normal
+Size 
+15px
+Line height 
+18px
+Align 
+Center
+rgba(0, 0, 0, 1)
+rgba(196, 196, 196, 1)
+rgba(243, 241, 241, 1) */
+/* text container displaying the User's search. 
+Note: Possibly explore if this would be a stateful component, that takes their input(An Event to be handled), and sends that input as a request(Axios), to the backend(Node.js, Massive, Redux), to check if the User's input(the Event that occurred), matches a predetermined search(An already existing path... Ex. - "Search 'Volkswagen' on the */ 
+
+/* END OF OLDER FIGMA-DESIGNED STYLING, DATING BEFORE 4/13/21
+
+}
+/* A
+/* 
+Css Stlying Key: Margin, Border, Padding, Content. 
+  M
+  B
+  P
+  C
+
+// M B P C //
+
+// Marigin -  M
+   Border  -  B
+   Padding -  P
+   Content -  C
+//  */

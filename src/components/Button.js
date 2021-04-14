@@ -6,7 +6,7 @@ class Button extends Component {
         super();
 
         this.state = {
-            message: ""
+            message: "Type Your Message here"
         };
     }
 
